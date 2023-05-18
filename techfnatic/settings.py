@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-^%w3^y=xijy+h^4#pgw*2_d9+v__dm(hxlxz)ijd9i2vx61trv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['techfnatic.pythonanywhere.com','https://techfnatic.pythonanywhere.com','localhost']
 
 
 # Application definition
@@ -59,6 +59,7 @@ INSTALLED_APPS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://techfnatic.netlify.app"
 ]
 
 
